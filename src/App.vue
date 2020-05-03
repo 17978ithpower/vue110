@@ -48,7 +48,7 @@ export default {};
 .v-leave-to {
   opacity: 0;
   transform: translateX(-100%);
-  position: absolute;
+  position: absolute; // 这个样式触发的时候,会将所有者移除文档流之外
 }
 .v-enter.active,
 .v-leave-active {
